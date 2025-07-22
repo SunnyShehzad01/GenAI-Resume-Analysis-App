@@ -7,6 +7,7 @@
 ## 🚀 Live Demo
 
 👉 [Click to use the app](https://genai-resume-analysis-app-hx3aw69essuewjwbsspvef.streamlit.app/)
+<img width="1434" height="674" alt="Screenshot 2025-07-22 at 1 23 10 PM" src="https://github.com/user-attachments/assets/a77af373-a465-448e-9084-76e719ebcd9c" />
 
 ## 📌 Overview
 
