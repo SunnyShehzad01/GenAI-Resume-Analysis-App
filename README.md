@@ -1,20 +1,60 @@
-# Project Synopsis
-Here you can check your resume with the job description and get the score and insights such as:
-* ATS Score of the resume
-* Probability of getting hired
-* Keyword analysis
-* SWOT Analysis
-* Suggestions for overall improvement
+# 🧠 GenAI Resume Analysis App
 
-## Steps for creating the project
-1. Create the virtual environment - ``python -m venv .venv``
-2. Activate the virtual environment - ``source .venv/bin/activate``
-3. Create the .env file to store the api key.
-4. Create the requirements.txt file and add the libraries for installation - ``pip install -r requirements.txt``
+![Streamlit](https://img.shields.io/badge/Built%20with-Streamlit-orange?logo=streamlit)
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python)
+![License](https://img.shields.io/badge/License-MIT-green)
 
-## Architecture
-1. app.py: Frontend creation and output of the GenAI Model.
-2. It will have the feature of capturing information such as Resume and JD.
-3. Information we are capturing is ``Resume.pdf`` and ``job desc``.
-4. pdf.py that will process the information in pdf and thats why we have installed ``pypdf``
-5. analysis.py that will triangulate the pdf information and the JD and will provide insights.
+## 🚀 Live Demo
+
+👉 [Click to use the app](https://genai-resume-analysis-app-hx3aw69essuewjwbsspvef.streamlit.app/)
+
+## 📌 Overview
+
+The **GenAI Resume Analysis App** is a powerful, user-friendly web tool that uses Generative AI to analyze resumes, extract key information, and provide actionable insights for job seekers and recruiters.
+
+With just a few clicks, you can:
+- Upload a resume (PDF or text)
+- Get a detailed breakdown of candidate strengths
+- Analyze job fit
+- Receive improvement suggestions
+
+All powered by state-of-the-art **Generative AI** models!
+
+---
+
+## 💡 Features
+
+- 🔍 **AI-Powered Resume Insights**: Understand a candidate’s skills, experience, and gaps.
+- 📊 **Job Match Evaluation**: Check alignment between resume and job descriptions.
+- ✍️ **Improvement Suggestions**: Tailored suggestions to optimize resumes.
+- 🌐 **Clean Web Interface**: Built with Streamlit for simplicity and speed.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend**: [Streamlit](https://streamlit.io/)
+- **Backend**: Python, LangChain / OpenAI / LLMs (assumed)
+- **File Handling**: PDF/Text Resume Upload
+- **Hosting**: Streamlit Cloud
+
+---
+
+## 📂 Installation
+
+To run the app locally, follow these steps:
+
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/genai-resume-analysis-app.git
+cd genai-resume-analysis-app
+
+# Create a virtual environment (optional)
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the app
+streamlit run app.py
